@@ -1,0 +1,9 @@
+app:
+  name: Google Drive
+  package: com.google.android.apps.docs
+  description: a safe place to back up and access all your files from any device. Easily invite others to view, edit, or leave comments on any of your files or folders.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

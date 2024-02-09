@@ -1,0 +1,24 @@
+type: gmail
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Compose a draft email with the subject "meeting details" and the content "weekly meeting on 13 Oct, Room 101" to be sent to "bob@example.com".
+  - instruction: Schedule an email with the subject "meeting details" and the content "weekly meeting on 13 Oct, Room 101" to be sent to "bob@example.com" at tomorrow morning in Gmail.
+  - instruction: Add the first file in the file system to the saved draft email with the subject "meeting details" in Gmail.
+  - instruction: Open the latest draft email send to "bob@example.com" in Gmail.
+  - instruction: Star the latest email in sent box in Gmail.
+  - instruction: Search for emails containing "meeting" in Gmail.
+  - instruction: Mark the latest email sent from Google as unread in Gmail.
+  - instruction: Reply to the latest email sent from Google with content "Got it." in Gmail.
+  - instruction: Forward the latest email sent from Google to "bob@example.com" in Gmail.
+  - instruction: Search for emails sent to "bob@example.com" in Gmail.
+  - instruction: Delete the latest draft email to be send to "bob@example.com" in Gmail.
+  - instruction: Mark important to the latest email sent from Google in Gmail.
+  - instruction: Archive the latest email sent from Google in Gmail.
+  - instruction: Search for all emails sent from Google in Gmail.
+  - instruction: Open Gmail settings.
+  - instruction: Turn off notifications of the current account for Gmail.
+  - instruction: Change the conversation list density of emails to "Comfortable" in Gmail.
+  - instruction: Change the theme to "Dark" of Gmail.

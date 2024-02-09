@@ -1,0 +1,18 @@
+type: youtube
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Search for videos using keywords "ChatGPT".
+  - instruction: Play the first video from the first page of YouTube.
+  - instruction: Like the YouTube video titled "ChatGPT Explained Completely".
+  - instruction: Leave a comment "Great!" on the video titled "ChatGPT Explained Completely".
+  - instruction: Copy the share link of the YouTube video titled "ChatGPT Explained Completely".
+ - instruction: Subscribe to the YouTube channel "Ted-Ed".
+ - instruction: Unsubscribe from the YouTube channel "Ted-Ed".
+  - instruction: Create a YouTube playlist "work".
+  - instruction: Add the online video titled "ChatGPT Explained Completely" to the YouTube playlist "work".
+  - instruction: Remove the video titled "ChatGPT Explained Completely" from the YouTube playlist "work".
+  - instruction: Rename the YouTube playlist "work" to "test".
+  - instruction: Delete the YouTube playlist "test".

@@ -1,0 +1,21 @@
+type: camera
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Take a picture.
+  - instruction: Start recording a video.
+  - instruction: Set the flash mode to off for the Camera.
+  - instruction: Set the flash mode to on for the Camera.
+  - instruction: Turn on save location function for the Camera.
+  - instruction: Turn off save location function for the Camera.
+  - instruction: Turn on the manual exposure compensation for the Camera.
+  - instruction: Turn off the manual exposure compensation for the Camera.
+  - instruction: Set the migapixels to maximum for the Camera.
+  - instruction: Set the migapixels to minimum for the Camera.
+  - instruction: Set the resolution to "HD 720p" for the Camera.
+  - instruction: Set the resolution to "QVGA" for the Camera.
+  - instruction: Change the timer to 10 seconds for the Camera.
+  - instruction: Change the timer to 3 seconds for the Camera.
+

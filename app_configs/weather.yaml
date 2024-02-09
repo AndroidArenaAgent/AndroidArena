@@ -1,0 +1,9 @@
+app:
+  name: Weather
+  package: com.weather.Weather
+  description: Get weather information.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

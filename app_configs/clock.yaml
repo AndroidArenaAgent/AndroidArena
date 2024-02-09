@@ -1,0 +1,9 @@
+app:
+  name: Clock
+  package: com.google.android.deskclock
+  description: Check the time at different timezone and set alarm.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

@@ -1,0 +1,15 @@
+type: slack
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+ - instruction: Create a new workspace with the name "myspace" for project "myproject" in Slack and do not invite anyone.
+ - instruction: Create a new public channel with the name "work_channel" in Slack.
+ - instruction: Invite "bob@example.com" to join channel "work_channel" in Slack.
+  - instruction: Send a message "hello" to "bob" in Slack.
+  - instruction: Mark a "heart" emoji to the most recent message from "bob" in Slack.
+  - instruction: Share the most recent file with "bob" in Slack.
+  - instruction: Search for a specific conversation containing "hello" in Slack.
+  - instruction: Mute the specific channel "work_channel" in Slack.
+  - instruction: Change the slack theme to the dark mode.

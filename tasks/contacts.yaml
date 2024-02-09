@@ -1,0 +1,17 @@
+type: contacts
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Create a new contact with the first name "John", last name "Smith", email address "john@example.com", and phone number "010-123456" in Google Contacts.
+  - instruction: Add the Field Company as "Microsoft" to the contact "John" in Google Contacts.
+  - instruction: Create a new label called "colleague" in Google Contacts.
+  - instruction: Add "John" to the existing label "colleague" in Google Contacts.
+  - instruction: Remove "John" from the existing label "colleague" in Google Contacts.
+  - instruction: Delete the label "colleague" in Google Contacts.
+  - instruction: Export all contacts from Google Contacts to a VCF file.
+  - instruction: Search for contacts with the name "John" in Google Contacts.
+  - instruction: Merge duplicate contacts in Google Contacts.
+  - instruction: Delete "John" from Google Contacts.
+  - instruction: Sort contacts by first name in Google Contacts.

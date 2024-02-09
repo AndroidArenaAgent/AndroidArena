@@ -1,0 +1,9 @@
+app:
+  name: Camera
+  package: com.android.camera2
+  description: Native Android camera APP, useful for taking photos and recording videos.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

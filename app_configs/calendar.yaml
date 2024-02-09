@@ -1,0 +1,11 @@
+app:
+  name: Calendar
+  package: com.google.android.calendar
+  description: useful for creating, querying, editing and deleting calendar events. For example, when the query is "please remind me of the meeting on July 18.", you should create an event with content "meeting" and date "July 18".
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+    - page1
+    - page2
+    - page3

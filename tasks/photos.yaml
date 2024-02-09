@@ -1,0 +1,12 @@
+type: photos
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Group similar faces together in my photos using the facial recognition feature.
+  - instruction: Create an album named "animals" for the first photo.
+  - instruction: Delete the album named "animals" in Photos.
+  - instruction: Create a quick video from first two photos using the animation feature.
+  - instruction: Delete the first photo from my Google Photos.
+  - instruction: View my Google Photos information, including storage usage and account settings.

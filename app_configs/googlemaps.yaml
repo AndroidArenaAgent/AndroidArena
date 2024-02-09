@@ -1,0 +1,9 @@
+app:
+  name: Google Maps
+  package: com.google.android.apps.maps
+  description: Real-time GPS navigation & local suggestions for food, events & activities.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

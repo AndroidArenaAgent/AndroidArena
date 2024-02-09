@@ -1,0 +1,9 @@
+app:
+  name: Settings
+  package: com.android.settings
+  description: The phone settings. You can check and modify phone settings here.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

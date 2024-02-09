@@ -1,0 +1,9 @@
+app:
+  name: Contacts
+  package: com.google.android.contacts
+  description: Back up your contacts & access them anywhere.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

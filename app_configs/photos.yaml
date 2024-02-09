@@ -1,0 +1,9 @@
+app:
+  name: Photos
+  package: com.google.android.apps.photos
+  description: The home for all your photos and videos, automatically organized and easy to share.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

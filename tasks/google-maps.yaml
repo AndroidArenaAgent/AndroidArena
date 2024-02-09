@@ -1,0 +1,20 @@
+type: google-maps
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Get directions from my current location to "Microsoft SVC Building".
+  - instruction: Show me the traffic conditions on my route to "Microsoft SVC Building".
+  - instruction: Switch to satellite view.
+  - instruction: Find the nearest gas station.
+  - instruction: Show me the Street View of "Microsoft SVC Building".
+  - instruction: Find the best route for walking to "Microsoft SVC Building".
+  - instruction: Show me the public transportation options to "Microsoft SVC Building".
+  - instruction: Save the address "Los Altos Gardens" for quick access.
+  - instruction: Find the nearest restaurant available now.
+  - instruction: Show me the distance from "Los Altos Gardens" to "Microsoft SVC Building".
+  - instruction: Find the nearest ATM.
+  - instruction: Find the nearest parking lot.
+  - instruction: Find the nearest hospital.
+  - instruction: Find the nearest hotel.

@@ -1,0 +1,9 @@
+app:
+  name: YouTube
+  package: com.google.android.youtube
+  description: Enjoy your favourite videos and channels with the official YouTube app.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

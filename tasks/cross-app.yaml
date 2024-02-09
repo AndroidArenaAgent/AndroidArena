@@ -1,0 +1,28 @@
+type: cross-app
+obs_type: mix
+reward_type: prompt
+max_step: 30
+max_repeat_step: 5
+tasks:
+  - instruction: Find the email titled "OpenAI website" in Gmail, extract the first URL in the email content, and open the URL in Firefox.
+  - instruction: Extract the date and time from the email titled "meeting details" in Gmail, and create a calendar event in Google Calendar.
+  - instruction: Search Gmail for the latest email titled "restaurant reservation", extract the restaurant name, and open Google Maps with the restaurant name for directions.
+  - instruction: Scan Gmail for the latest email titled "flight confirmation", extract the airport details, and open Google Maps with the airport for directions.
+  - instruction: Create a new contact in Google Contacts from a website "https://profiles.stanford.edu/fei-fei-li" visited in Firefox, and automatically fill in the contact's name, email, and phone number.
+  - instruction: Export all contacts from Google Contacts to a VCF file and save it to Google Drive.
+  - instruction: Scan Gmail for the email titled "meeting details" containing a meeting invitation, extract the meeting details, and send a message in Google Messages to "John" with the meeting details.
+  - instruction: Scan Google Messages for the latest message regarding a meeting, extract the meeting details, and create an event in Google Calendar.
+  - instruction: Take a photo with a camera and send it as an email attachment to bob@example.com, and the subject of the email is "landscape photo".
+  - instruction: Take a photo using Android Camera and set it as the wallpaper of homescreen through Android Settings.
+  - instruction: Take a photo using Android Camera and set it as the lock screen wallpaper through Android Settings.
+  - instruction: Find the contact information for "John" in Google Contacts and create an event titled "meeting" in Google Calendar with him.
+  - instruction: Find the company address of a Google contact of "John" and create a Google Maps route to their location.
+  - instruction: Check the current weather forecast for the location of "John" in Google Contacts.
+  - instruction: Search for the nearest gas station in Google Maps and send the address to the "john@example.com" in Google Messages.
+  - instruction: Search Google Contacts for John's email address and send it to the Slack channel "work".
+  - instruction: Send a message to the "work" channel in Slack with the content of the latest SMS containing "hello" in Google Messages.
+  - instruction: Search for the keyword "ChatGPT" in Firefox, extract the title of the first searched result, and send it as a message to the "work" channel in Slack.
+  - instruction: Find the nearest coffee shop using Google Maps and send a message to "Bob" on Slack with the shop name.
+  - instruction: Use Google Maps to find the nearest restaurant and send a message to "Bob" on Slack with the restaurant name.
+  - instruction: Send a message to the "work" channel in Slack with the content of the latest SMS containing "hello" in Google Messages.
+  - instruction: Find the email with the subject "meeting details" in my Gmail, extract the content, and send a message to the "work" channel on Slack.

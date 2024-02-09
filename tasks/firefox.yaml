@@ -1,0 +1,11 @@
+type: firefox
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Search for "large language model" in Firefox.
+  - instruction: Navigate to the webpage "https://www.wikipedia.org/".
+  - instruction: Search the key word "GPT" in website "https://openai.com/blog".
+  - instruction: View my bookmarks in Firefox.
+  - instruction: View my history in Firefox.

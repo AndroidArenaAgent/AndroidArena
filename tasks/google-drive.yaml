@@ -1,0 +1,19 @@
+type: google-drive
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Upload the document "sample.pdf" in the Download Folder to Google Drive.
+  - instruction: Share the file "sample.pdf" with "bob@example.com" on Google Drive.
+  - instruction: Create a new folder "test" on Google Drive.
+  - instruction: Move the file "sample.pdf" to folder "test" on Google Drive.
+  - instruction: Rename the file "sample.pdf" to "test.pdf" in the "test" folder on Google Drive.
+  - instruction: Make the file "test.pdf" in the "test" folder available offline on Google Drive.
+  - instruction: Share the file "test.pdf" in the "test" folder with "bob@example.com" and "bob2@example.com" on Google Drive.
+  - instruction: Add a comment "read" to the file "test.pdf"  in the "test" folder on Google Drive.
+  - instruction: Search for file "test.pdf" on Google Drive.
+  - instruction: Delete the "test" folder on Google Drive.
+  - instruction: Set the layout of Google Drive to dark theme.
+  - instruction: Set the layout of Google Drive to light theme.
+

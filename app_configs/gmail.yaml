@@ -1,0 +1,9 @@
+app:
+  name: Gmail
+  package: com.google.android.gm
+  description: Connect, create and collaborate with Gmail, part of Google Workspace.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

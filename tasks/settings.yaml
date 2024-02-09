@@ -1,0 +1,27 @@
+type: settings
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Turn off Bluetooth.
+  - instruction: Turn on Bluetooth.
+  - instruction: Change the wallpaper to the first photo in the 'Life' category.
+  - instruction: Enable Wi-Fi.
+  - instruction: Disable Wi-Fi.
+  - instruction: Check the battery usage.
+  - instruction: Add 'Aghem' language of my Android device.
+  - instruction: Change the phone ringtone to "Pixel Sounds Copycat" on my Android device.
+  - instruction: Disable location services on my Android device.
+  - instruction: Enable location services on my Android device.
+  - instruction: Check the storage usage of my Android device.
+  - instruction: Change the font size on my Android device and make the text bigger.
+  - instruction: Enable airplane mode on my Android device.
+  - instruction: Disable airplane mode on my Android device.
+  - instruction: Change the screen timeout to '1 minute' on my Android device.
+  - instruction: Change the screen timeout to '30 seconds' on my Android device.
+  - instruction: Check for system updates on my Android device.
+  - instruction: Change the default web browser to chrome on my Android device.
+  - instruction: Change the default web browser to firefox on my Android device.
+
+

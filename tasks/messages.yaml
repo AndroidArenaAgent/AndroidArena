@@ -1,0 +1,22 @@
+type: messages
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Send a text message to "Bob" saying "hello" using Google Messages.
+  - instruction: Send a text message to "Bob" saying "here is a good YouTube video 'ChatGPT Explained Completely'" using Google Messages.
+  - instruction: Schedule a message "hello" to be sent to "Bob" at tomorrow morning using Google Messages.
+  - instruction: Search for the messages containing "hello" using Google Messages.
+  - instruction: Mark the message containing "hello" as important using Google Messages.
+  - instruction: Archive the message containing "hello" using Google Messages.
+  - instruction: Delete the message containing "hello" using Google Messages.
+  - instruction: Block a specific phone number "010-654321" using Google Messages.
+  - instruction: Unblock the specific phone number "010-654321" using Google Messages.
+  - instruction: Create a chat group called "work" with the first two people on the contact list using Google Messages.
+  - instruction: Pin the specific chat "work" to the top of my chat list using Google Messages.
+  - instruction: Delete the chat group called "work" in Google Messages.
+  - instruction: Mute notifications for all chats using Google Messages.
+  - instruction: Unmute notifications for all chats using Google Messages.
+
+

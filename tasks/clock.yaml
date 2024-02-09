@@ -1,0 +1,20 @@
+type: clock
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Open Google Clock.
+  - instruction: Set an alarm for 3PM with the label "meeting" using Google Clock.
+  - instruction: Turn off the alarm with the label "meeting" using Google Clock.
+  - instruction: Delete the alarm with the label "meeting" using Google Clock.
+  - instruction: Set a timer for 5 seconds using Google Clock.
+  - instruction: Pause the timer using Google Clock.
+  - instruction: Resume the timer using Google Clock.
+  - instruction: Cancel the timer using Google Clock.
+  - instruction: Start the stopwatch using Google Clock.
+  - instruction: Stop the stopwatch using Google Clock.
+  - instruction: Reset the stopwatch using Google Clock.
+  - instruction: View the current time in London in Google Clock.
+  - instruction: Add a new city Beijing to World Clock in Google Clock.
+  - instruction: Delete the city Beijing to World Clock in Google Clock.

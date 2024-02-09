@@ -1,0 +1,70 @@
+type: calendar
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Open the calendar.
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+  - instruction: Create a new event on Google Calendar with the title "meeting", start time the 13th of next month, and location "Microsoft SVC Building".
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/floating_action_button"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/floating_action_button"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/title"]').set_text('meeting')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/expanded_recycler"]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]').click()
+      - d.xpath('//*[@resource-id="android:id/next"]').click()
+      - d.xpath('//*[@text="13"]').click()
+      - d.xpath('//*[@resource-id="android:id/button1"]').click()
+      - d.swipe_ext('up')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/expanded_recycler"]/android.widget.Button[2]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_text"]').set_text('Microsoft SVC Building')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/suggestions"]/android.widget.Button[1]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/save"]').click()
+  - instruction: Change the start date of an existing event on Google Calendar with the title "meeting" to the 12th of next month.
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/action_search"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_text"]').set_text('meeting')
+      - d.press('enter')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_list"]/android.support.v7.widget.RecyclerView[1]/android.view.View[6]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/edit_image"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/expanded_recycler"]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.LinearLayout[1]/android.widget.TextView[1]').click()
+      - d.xpath('//*[@resource-id="android:id/month_view"]/android.view.View[12]').click()
+      - d.xpath('//*[@resource-id="android:id/button1"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/save"]').click()
+  - instruction: Invite "bob@example.com" to the existing event with the title "meeting" on Google Calendar.
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/action_search"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_text"]').set_text('meeting')
+      - d.press('enter')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_list"]/android.support.v7.widget.RecyclerView[1]/android.view.View[6]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/edit_image"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/expanded_recycler"]/android.widget.LinearLayout[2]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_text"]').set_text('bob@example.com')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/recycler"]/android.view.ViewGroup[1]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/right_button"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/save"]').click()
+      - d.xpath('//*[@resource-id="android:id/button1"]').click()
+  - instruction: Present all events on Google Calendar for this week.
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/toolbar"]/android.widget.ImageButton[1]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/drawer_list"]/android.widget.LinearLayout[5]').click()
+  - instruction: Present all events on Google Calendar for this month.
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/toolbar"]/android.widget.ImageButton[1]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/drawer_list"]/android.widget.LinearLayout[6]').click()
+  - instruction: Delete the event on Google Calendar with the title "meeting".
+    action_seq:
+      - d.app_start('com.google.android.calendar')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/action_search"]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_text"]').set_text('meeting')
+      - d.press('enter')
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/search_list"]/android.support.v7.widget.RecyclerView[1]/android.view.View[6]').click()
+      - d.xpath('//*[@resource-id="com.google.android.calendar:id/info_action_overflow"]/android.support.v7.widget.LinearLayoutCompat[1]/android.widget.ImageView[1]').click()
+      - d.xpath('//android.widget.ListView/android.widget.LinearLayout[1]').click()
+      - d.xpath('//*[@resource-id="android:id/button1"]').click()

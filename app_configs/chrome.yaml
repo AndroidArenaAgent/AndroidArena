@@ -1,0 +1,9 @@
+app:
+  name: Chrome
+  package: com.chrome.beta
+  description: The speed and simplicity of Chrome, now on your Android device.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

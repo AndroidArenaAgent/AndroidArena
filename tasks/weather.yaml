@@ -1,0 +1,21 @@
+type: weather
+obs_type: mix
+reward_type: prompt
+max_step: 15
+max_repeat_step: 5
+tasks:
+  - instruction: Get the current weather for my current location.
+  - instruction: Check the weather forecast for the next 3 days.
+  - instruction: View the wind speed and direction for the current weather.
+  - instruction: Check the chance of rain for the current weather.
+  - instruction: View the humidity level for the current weather.
+  - instruction: Check the UV index for the current weather.
+  - instruction: Find out the sunrise and sunset times for my current location.
+  - instruction: Switch from Celsius to Fahrenheit units in the Weather APP.
+  - instruction: Switch from Fahrenheit to Celsius units in the Weather APP.
+  - instruction: Get a detailed hourly forecast for the next 3 hours.
+  - instruction: View the weather radar for my current location.
+  - instruction: Get the weather for "London" by searching for it.
+  - instruction: Turn on significant weather forecast alerts for severe weather conditions.
+  - instruction: Turn off significant weather forecast alerts for severe weather conditions.
+

@@ -1,0 +1,9 @@
+app:
+  name: Firefox
+  package: org.mozilla.firefox
+  description: Firefox web browser. You can search for any news, events and knowledge here.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:

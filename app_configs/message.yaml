@@ -1,0 +1,9 @@
+app:
+  name: Messages
+  package: com.google.android.apps.messaging
+  description: Simple, helpful messaging by Google.
+  permissions:
+    - GPS
+    - FileSystem
+  activities:
+activities:
