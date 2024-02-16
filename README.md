@@ -1,5 +1,6 @@
-﻿# AndroidArena: Understanding the Weakness of Large Language Model Agents within a Complex Android Environment
+﻿# Understanding the Weakness of Large Language Model Agents within a Complex Android Environment
 
+<a href="https://arxiv.org/abs/2402.06596">Paper Link</a>
 
 ## Abstract
 Large language models (LLMs) have empowered intelligent agents to execute intricate tasks within `domain-specific software` such as browsers and games. However, when applied to `general-purpose software systems` like operating systems, LLM agents face three primary challenges. Firstly, the `action space is vast and dynamic`, posing difficulties for LLM agents to maintain an up-to-date understanding and deliver accurate responses. Secondly, real-world tasks often require `inter-application cooperation`, demanding farsighted planning from LLM agents. Thirdly, agents need to identify optimal solutions `aligning with user constraints`, such as security concerns and preferences.
@@ -45,3 +46,17 @@ For example:
 ### Evaluation
 
 The evaluation script is in `run_evaluator.py`.
+
+
+
+## Citation
+If you find our environment or benchmark useful, please cite our paper:
+
+```
+@article{xing2024understanding,
+  title={Understanding the Weakness of Large Language Model Agents within a Complex Android Environment},
+  author={Xing, Mingzhe and Zhang, Rongkai and Xue, Hui and Chen, Qi and Yang, Fan and Xiao, Zhen},
+  journal={arXiv preprint arXiv:2402.06596},
+  year={2024}
+}
+```
