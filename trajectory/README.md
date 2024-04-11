@@ -1,7 +1,7 @@
 ## Trajectory
 
 
-This folder contains HTML visualization examples of trajectory.
+This folder contains HTML and PDF visualization examples of trajectory.
 
 1. Add a new city Beijing to World Clock in Google Clock
 
